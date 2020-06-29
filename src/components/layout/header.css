@@ -1,0 +1,24 @@
+body {
+  background: red;
+}
+.navbar {
+  color: red;
+  background: crimson;
+  padding: 20px;
+}
+.navbar-nav li a.nav-link {
+  color: white !important;
+}
+
+.navbar-nav li a.nav-link:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: all 0.5s ease-in-out;
+}
+.navbar-nav li a.nav-link:hover:after {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}

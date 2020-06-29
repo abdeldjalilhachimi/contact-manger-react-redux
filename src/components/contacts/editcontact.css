@@ -1,0 +1,25 @@
+.card-header {
+  color: crimson !important;
+  font-size: 20px;
+  box-shadow: 2px 2px 2px rgb(219, 217, 217);
+}
+
+form input {
+  border: none !important;
+  border-radius: none !important;
+  border-bottom: 1px solid crimson !important;
+  padding: 10px;
+  outline: none !important;
+}
+form input[type="submit"] {
+  background: crimson;
+  color: white;
+  border-bottom: 0 !important;
+  outline: none !important;
+}
+
+form input[type="submit"]:hover {
+  background: crimson;
+  color: white;
+  opacity: 0.8;
+}
